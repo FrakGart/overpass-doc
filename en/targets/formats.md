@@ -117,14 +117,14 @@ The flag _geom_ (for _geometry_) completes the full coordinates. The minimum lev
 
 But now we have not only a few hundred meters in a park of Greenwich but also several hundred kilometres of footpath in the east of England. This is a general problem of Relations. As a remedy there is a bounding box also for the output command, [see there](../full_data/bbox.md#crop).
 
-Finally there is the output format _tags_. This is based on _ids_ and additionally displays tags, but no geometries or structures. It is especially useful if you don't need the coordinates in the result [https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%3B]:
+Finally there is the output format _tags_. This is based on _ids_ and additionally displays tags, but no geometries or structures. It is especially useful if you don't need the coordinates in [the results](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%3B):
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
     out tags;
 
-However, it can also be combined with the two geometry levels _center_ and _bb_ [https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%20center%3B]:
+However, it can also be [combined](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%20center%3B) with the two geometry levels _center_ and _bb_:
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
@@ -177,7 +177,7 @@ The standard case of a column is the key of a tag. The value of this tag is then
     
 CSV itself originally stood for _comma seaprated value_. However, the numerous programs using it have developed different expectations of separators. Therefore the separator can be configured as well as the heading [on and off](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%5Bout%3Acsv%28%3A%3Atype%2C%3A%3Aid%2Cname%3Bfalse%3B%22%7C%22%29%5D%3B%0A%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20center%3B):
 
-   [out:csv(::type,::id,name;false;"|")];
+    [out:csv(::type,::id,name;false;"|")];
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
