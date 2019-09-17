@@ -109,3 +109,26 @@ The query can be repaired by [``out geom``](https://overpass-turbo.eu/?lat=51.47
     out geom;
 
 <a name="convenience"/>
+## Komfort
+
+Overpass Turbo offers some comfort functions.
+
+It can automatically insert the bounding box of the current window into a query. Overpass Turbo replaces each occurrence of the string ``{{bbox}}}`` with the four margins, so that a valid bounding box is created.
+
+You can even see the transferred bounding box, if you [insert](https://overpass-turbo.eu/?lat=51.4765&lon=0.0&zoom=17&Q=make%20Example%20Infotext%3D%22The%20current%20bounding%20box%20is%20%7B%7Bbbox%7D%7D%22%3B%0Aout%3B) it at a place other than the usual place (and click _data_ after executing):
+
+    make Example Infotext="The current bounding box is {{bbox}}";
+    out;
+    
+A second useful function is hidden behind the _Share_ button in the upper left corner. This creates a link, where the query entered at the time can be retrieved permanently. Even if someone else calls the link and edits the query, then the original query under the link will still be preserved.
+
+The current map view can also be entered via checkbox. This means center of the view and zoom level, i.e. different map sections are visible on screens of different sizes.
+
+<a name="limitations"/>
+## Limitations
+
+Overpass Turbo can handle almost all output types of the Overpass API. But there are still a few limits:
+
+Overpass Turbo displays only one object per object ID and type. Therefore [Diffs](index.md) cannot be displayed with Overpass Turbo.
+
+Overpass Turbo does not display [GeoJSON](../targets/formats.md#json) directly from the Overpass API. Overpass Turbo comes with its own conversion module for GeoJSON, and Martin thinks the user confusion is too great, if both mechanisms are used in parallel. For the time being, the experimental instance [https://olbricht.nrw/ovt/](https://olbricht.nrw/ovt/) must be referred to in this case.
