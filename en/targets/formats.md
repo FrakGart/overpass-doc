@@ -7,18 +7,18 @@ There are different data formats for transmitting OpenStreetMap data. We introdu
 <!-- The title was translated to "demarcation" but from the context I think introduction may be better -->
 ## Introduction
 
-The OpenStreetMap data types have already been introduced in the [appropriate section of the introduction](../preface/osm_data_model.md). So you should already be familiar with nodes, ways and relations.
+The OpenStreetMap data types have already been introduced in the [introduction](../preface/osm_data_model.md). So you should already be familiar with nodes, ways and relations.
 
 This section explains the different output formats and how the degree of detail returned can be adjusted. Which tool needs which output format is explained in the section about the tool.
 
-The common problem of completing the geometry of OpenStreetMap objects, is dedicated to [the section on geometries](../full_data/osm_types.md) in the chapter [Spatial data selection](../full_data/index.md).
+How to retrieve complete OpenStreetMap object geometry is discussed in [the section on geometries](../full_data/osm_types.md) in the chapter [Spatial data selection](../full_data/index.md).
 
 <a name="faithful"/>
-## Traditional degrees of detail
+## Specifying degree of detail
 
-First to the degrees of detail: While the output formats are controlled by a global setting for each query, the levels of detail for each output command are controlled by its parameters. This makes it possible to mix different file grades in one query; this ability is required for the optimal amount of data [of some geometry variants](../full_data/osm_types.md#full). This is noted for the [Applications](index.md).
+First to the degree of detail. While the output format is controlled by a global setting for each query, the level of detail for each output command is controlled by its parameter. This makes it possible to mix different levels of detail in one query; this ability is required for the optimal amount of data [of some geometry variants](../full_data/osm_types.md#full). This is noted for the [Applications](index.md).
 
-We also give an example of the degrees of detail around the London suburb of Greenwich. The example is mainly chosen in such a way that it provides only a small number of nodes, ways and relations, to have a good look at the data in the tab _Data_ of Overpass Turbo.
+To show the different levels of detail you can ask for we will use an example from the London suburb of Greenwich. The example is mainly chosen so that only a small number of nodes, ways and relations will be returned, and you can have  have a good look at the data in the _Data_ tab of Overpass Turbo.
 
 For the original OpenStreetMap detail grades there is a hierarchy to enable them:
 
