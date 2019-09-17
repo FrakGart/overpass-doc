@@ -9,7 +9,7 @@ How to configure a request so that the results suit the downstream purpose? Exam
 
 (Chapter unfortunately not finished yet)
 
-<!---
+<!--
 [uMap](umap.md)  
 Pure data and geometries to design a thematic map yourself with [uMap](https://umap.openstreetmap.fr/).
 
@@ -22,7 +22,7 @@ More freedom to merge OpenStreetMap data with other data: Get OpenStreetMap data
 [Tables](csv.md)  
 For many applications it is interesting to get a table with or without coordinate data, so you can process them with a spreadsheet. Overview of possible variants.
 
-<!--- Example with for loop -->
+<!-- Example with for loop -->
 
 <!--
 
