@@ -100,9 +100,9 @@ However, it can also be the result of a query, that has loaded some _Ways_, but 
     );
     out;
     
-The query can be repaired by ``out geom`` [https://overpass-turbo.eu/?lat=51.4765&lon=0.0&zoom=17&Q=%28%0A%20%20node%2851%2E475%2C%2D0%2E003%2C51%2E478%2C0%2E003%29%3B%0A%20%20way%28bn%29%3B%0A%29%3B%0Aout%20geom%3B]; more possibilities are explained in the section on [Geometries](../full_data/osm_types.md#nodes_ways):    
+The query can be repaired by [``out geom``](https://overpass-turbo.eu/?lat=51.4765&lon=0.0&zoom=17&Q=%28%0A%20%20node%2851%2E475%2C%2D0%2E003%2C51%2E478%2C0%2E003%29%3B%0A%20%20way%28bn%29%3B%0A%29%3B%0Aout%20geom%3B); more possibilities are explained in the section on [Geometries](../full_data/osm_types.md#nodes_ways):    
 
- (
+    (
       node(51.475,-0.003,51.478,0.003);
       way(bn);
     );
