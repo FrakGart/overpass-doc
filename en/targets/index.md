@@ -1,7 +1,7 @@
 Downstream Tools
 ================
 
-How to configure a request such that the result suits the respective downstream purpose? Examples are given for many popular applications without any claim to be exhaustive. The data formats are introduced and their variants presented.
+How to configure a request so that the results suit the downstream purpose? Examples are given for many popular applications without any claim to be exhaustive. The data formats are introduced and their variants presented.
 
 [LINK_STUB](formats.md)
 
@@ -9,7 +9,7 @@ How to configure a request such that the result suits the respective downstream 
 
 (Chapter unfortunately not finished yet)
 
-<!--
+<!---
 [uMap](umap.md)  
 Pure data and geometries to design a thematic map yourself with [uMap](https://umap.openstreetmap.fr/).
 
@@ -22,7 +22,7 @@ More freedom to merge OpenStreetMap data with other data: Get OpenStreetMap data
 [Tables](csv.md)  
 For many applications it is interesting to get a table with or without coordinate data, so you can process them with a spreadsheet. Overview of possible variants.
 
-<!-- Example with for loop -->
+<!--- Example with for loop -->
 
 <!--
 
