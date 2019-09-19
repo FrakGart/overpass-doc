@@ -33,14 +33,15 @@ The command _out ids_ will [get](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&
 
 * the IDs of the objects
 
-The command _out skel_ [returns](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20skel%3B) additionally provides the necessary information, to build the geometry:
+The command _out skel_ additionally [returns](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20skel%3B)  the information  necessary to build the geometry:
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
     out skel;
     
-* at nodes their coordinate
+* for nodes their geographical coordinates
+* for ways 
 * at Ways and Relations the list of members
 
 The command _out_ (without additions) [returns](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%3B) the complete geodata, i.e. additionally:
@@ -173,6 +174,6 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDk3NzQxMiwxNzg2MTUwMjc3LDcxOD
+eyJoaXN0b3J5IjpbMTkwNjAyNTIyMiwxNzg2MTUwMjc3LDcxOD
 c3NDM3OF19
 -->
