@@ -1,7 +1,7 @@
 Data formats
 ============
 
-There are different data formats for transmitting OpenStreetMap data. We introduce all of those that have an immediate application purpose.
+There are different data formats for storing and transmitting OpenStreetMap data. We introduce all of those that have an immediate application purpose.
 
 <a name="scope"/>
 <!-- The title was translated to "demarcation" but from the context I think introduction may be better -->
