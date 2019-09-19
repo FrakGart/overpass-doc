@@ -62,12 +62,13 @@ The command _out meta_ [returns](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&
 
 * the version per object
 * the timestamp for each object
-
-Finally, the _out attribution_ command returns the following data:
-
 * the Changeset-Id
 * the user ID
 * the username for this user ID
+
+<!--- Does the out attribution command exist or is it planned for  a future version
+
+Finally, the _out attribution_ command returns the following data:
 
 However, this last level of detail concerns data which, according to the prevailing opinion, fall under data protection. Therefore an [increased effort](../analysis/index.md) is necessary. Since this data is not required for any of the applications discussed in this chapter, we will dispense with an example here.
 
@@ -174,6 +175,6 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNzM2MTExLC02NTI2ODIwNzIsMTc4Mj
-kyNDY0NywxNzg2MTUwMjc3LDcxODc3NDM3OF19
+eyJoaXN0b3J5IjpbLTE1NTI3ODU4MzUsLTY1MjY4MjA3MiwxNz
+gyOTI0NjQ3LDE3ODYxNTAyNzcsNzE4Nzc0Mzc4XX0=
 -->
