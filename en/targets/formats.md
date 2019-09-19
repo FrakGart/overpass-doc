@@ -40,9 +40,9 @@ The command _out skel_ additionally [returns](https://overpass-turbo.eu/?lat=51.
       relation(51.477,-0.001,51.478,0.001); );
     out skel;
     
-* for nodes their geographical coordinates
-* for ways an ordered list of node ids
-* at Ways and Relations the list of members
+* for nodes: their geographical coordinates
+* for ways: an ordered list of node IDs
+* for relations: an ordered the list of member types, IDs, and roles
 
 The command _out_ (without additions) [returns](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%3B) the complete geodata, i.e. additionally:
 
@@ -174,6 +174,6 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjkyNDY0NywxNzg2MTUwMjc3LDcxOD
-c3NDM3OF19
+eyJoaXN0b3J5IjpbLTY1MjY4MjA3MiwxNzgyOTI0NjQ3LDE3OD
+YxNTAyNzcsNzE4Nzc0Mzc4XX0=
 -->
