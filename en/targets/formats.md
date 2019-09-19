@@ -20,7 +20,7 @@ First to the degree of detail. While the output format is controlled by a global
 
 To show the different levels of detail that you can ask for, we will use an example from the London suburb of Greenwich. The example is mainly chosen so that only a small number of nodes, ways and relations will be returned, and you can have a good look at the data in the _Data_ tab of Overpass Turbo.
 
-For the original OpenStreetMap detail grades there is a hierarchy to enable them:
+The level of detail is specified by the out command there is a hierarchy to enable them:
 
 <!--- Should there be an entry for out count ? --->
 
@@ -173,5 +173,6 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjE1MDI3Nyw3MTg3NzQzNzhdfQ==
+eyJoaXN0b3J5IjpbNTY4MDI3NTYyLDE3ODYxNTAyNzcsNzE4Nz
+c0Mzc4XX0=
 -->
