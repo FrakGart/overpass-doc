@@ -16,7 +16,7 @@ How to retrieve complete OpenStreetMap object geometry is discussed in [the sect
 <a name="faithful"/>
 ## Specifying degree of detail
 
-First to the degree of detail. While the output format is controlled by a global setting for each query, the level of detail for each output command is controlled by its parameter. This makes it possible to mix different levels of detail in one query; this ability is required for the optimal amount of data [of some geometry variants](../full_data/osm_types.md#full). This is noted for the [Applications](index.md).
+First to the degree of detail. While the output format is controlled by a global setting for each query, the level of detail for each output command is controlled by its parameter. This makes it possible to mix different levels of detail in one query; this ability is required for the optimal amount of data [for some geometry variants](../full_data/osm_types.md#full). This is noted for the [Applications](index.md).
 
 To show the different levels of detail you can ask for we will use an example from the London suburb of Greenwich. The example is mainly chosen so that only a small number of nodes, ways and relations will be returned, and you can have  have a good look at the data in the _Data_ tab of Overpass Turbo.
 
@@ -170,3 +170,6 @@ CSV itself originally stood for _comma seaprated value_. However, the numerous p
     out center;
 
 The [respective applications](index.md) indicate which variant is suitable.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDgwNTI1MzFdfQ==
+-->
