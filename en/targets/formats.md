@@ -106,9 +106,9 @@ The flag _geom_ (for _geometry_) adds the full geometry to all objects. For ways
       relation(51.477,-0.001,51.478,0.001); );
     out skel geom;
 
-But now we have not only a few hundred meters of footpath in a park of Greenwich but also several hundred kilometres in the east of England. This is a general problem with relations. As a remedy there is a bounding box also for the output command, [see here](../full_data/bbox.md#crop).
+But now we have not only a few hundred meters of footpath in a park of Greenwich but also several hundred kilometres in the east of England. This is a general problem with relations. As a remedy you can specify a bounding box in the output command, [see here](../full_data/bbox.md#crop).
 
-Finally there is the output format _tags_. This is based on _ids_ and additionally displays tags, but no geometries or structures. It is especially useful if you don't need the coordinates in [the results](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%3B):
+Finally there is the output command _tags_. This is based on _ids_ and additionally displays tags, but no geometries or structures. It is especially useful if you don't need the coordinates in [the results](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20tags%3B):
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
@@ -176,8 +176,8 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg5NjMxMjYsLTEyMDAzODQ4MTksLT
-IwMTE4MTQ1OTEsMTAzMzUyNzI3OCwxMzY2NzMxNzQ3LC01NzAy
-ODY3NDksMTMwMDIxNTIzOSwtNjUyNjgyMDcyLDE3ODI5MjQ2ND
-csMTc4NjE1MDI3Nyw3MTg3NzQzNzhdfQ==
+eyJoaXN0b3J5IjpbMzYwMTM3ODMxLC0xMjAwMzg0ODE5LC0yMD
+ExODE0NTkxLDEwMzM1MjcyNzgsMTM2NjczMTc0NywtNTcwMjg2
+NzQ5LDEzMDAyMTUyMzksLTY1MjY4MjA3MiwxNzgyOTI0NjQ3LD
+E3ODYxNTAyNzcsNzE4Nzc0Mzc4XX0=
 -->
