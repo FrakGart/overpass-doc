@@ -78,21 +78,21 @@ However, this last level of detail concerns data which, according to the prevail
 
 It is possible to add one of three additional geometry properties to the output. All combinations between the degrees of detail just presented and the additional degrees of geometry detail are possible.
 
-The flag _center_ adds a single coordinate to each object. The coordinate is the middle of the bounding box enclosing the object: [Example 1](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20center%3B) return object IDs and centres 
+The flag _center_ adds a single coordinate to each object. The coordinate is the middle of the bounding box enclosing the object. [Example 1](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20center%3B) return object IDs and centres: 
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
     out ids center;
 
-[Example 2](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20center%3B) centres combined with fu
+[Example 2](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20center%3B) centres combined with full data:
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
     out center;
 
-The flag _bb_ (for _Bounding-Box_) activates the enclosing Bounding-Box for each object: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20bb%3B)
+The flag _bb_ (for _Bounding-Box_) adds the enclosing bounding-box for each object: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20bb%3B)
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
@@ -176,8 +176,8 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIxNzI4ODgsLTEyMDAzODQ4MTksLT
-IwMTE4MTQ1OTEsMTAzMzUyNzI3OCwxMzY2NzMxNzQ3LC01NzAy
-ODY3NDksMTMwMDIxNTIzOSwtNjUyNjgyMDcyLDE3ODI5MjQ2ND
-csMTc4NjE1MDI3Nyw3MTg3NzQzNzhdfQ==
+eyJoaXN0b3J5IjpbMTU5MjMwODY0MCwtMTIwMDM4NDgxOSwtMj
+AxMTgxNDU5MSwxMDMzNTI3Mjc4LDEzNjY3MzE3NDcsLTU3MDI4
+Njc0OSwxMzAwMjE1MjM5LC02NTI2ODIwNzIsMTc4MjkyNDY0Ny
+wxNzg2MTUwMjc3LDcxODc3NDM3OF19
 -->
