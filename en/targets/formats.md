@@ -78,7 +78,7 @@ However, this last level of detail concerns data which, according to the prevail
 
 It is possible to add one of three additional geometry properties to the output. All combinations between the degrees of detail just presented and the additional degrees of geometry detail are possible.
 
-The flag _center_ adds a single coordinate to each object. The coordinate is the middle of the bounding box enclosing the object: [Example 1](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20center%3B)
+The flag _center_ adds a single coordinate to each object. The coordinate is the middle of the bounding box enclosing the object: [Example 1](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20center%3B) return object IDs and centres 
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
@@ -176,8 +176,8 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2Nzk4MTMyLC0xMjAwMzg0ODE5LC0yMD
-ExODE0NTkxLDEwMzM1MjcyNzgsMTM2NjczMTc0NywtNTcwMjg2
-NzQ5LDEzMDAyMTUyMzksLTY1MjY4MjA3MiwxNzgyOTI0NjQ3LD
-E3ODYxNTAyNzcsNzE4Nzc0Mzc4XX0=
+eyJoaXN0b3J5IjpbNjAwMjQ5MzYsLTEyMDAzODQ4MTksLTIwMT
+E4MTQ1OTEsMTAzMzUyNzI3OCwxMzY2NzMxNzQ3LC01NzAyODY3
+NDksMTMwMDIxNTIzOSwtNjUyNjgyMDcyLDE3ODI5MjQ2NDcsMT
+c4NjE1MDI3Nyw3MTg3NzQzNzhdfQ==
 -->
