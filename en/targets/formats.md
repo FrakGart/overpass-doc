@@ -74,7 +74,7 @@ However, this last level of detail concerns data which, according to the prevail
 --->
 
 <a name="extras"/>
-## Variants
+## Extra detail
 
 It is possible to add one of three additional geometry properties to the output. All combinations between the degrees of detail just presented and the additional degrees of geometry detail are possible.
 
@@ -176,7 +176,8 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzUyNzI3OCwxMzY2NzMxNzQ3LC01Nz
-AyODY3NDksMTMwMDIxNTIzOSwtNjUyNjgyMDcyLDE3ODI5MjQ2
-NDcsMTc4NjE1MDI3Nyw3MTg3NzQzNzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMTE4MTQ1OTEsMTAzMzUyNzI3OCwxMz
+Y2NzMxNzQ3LC01NzAyODY3NDksMTMwMDIxNTIzOSwtNjUyNjgy
+MDcyLDE3ODI5MjQ2NDcsMTc4NjE1MDI3Nyw3MTg3NzQzNzhdfQ
+==
 -->
