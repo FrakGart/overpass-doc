@@ -92,14 +92,14 @@ The flag _center_ adds a single coordinate to each object. The coordinate is the
       relation(51.477,-0.001,51.478,0.001); );
     out center;
 
-The flag _bb_ (for _Bounding-Box_) adds the enclosing bounding-box for each object: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20bb%3B)
+The flag _bb_ (for _bounding box_) adds the enclosing bounding box for each object: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20ids%20bb%3B)
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
       relation(51.477,-0.001,51.478,0.001); );
     out ids bb;
 
-The flag _geom_ (for _geometry_) completes the full coordinates. The minimum level of detail required for this is _skel_, so it works up to and including _attribution_: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20skel%20geom%3B)
+The flag _geom_ (for _geometry_) completes the full coordinates. The minimum level of detail required for this is _skel_, so it works up to and including _meta_: [Example](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=%28%20way%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%5Bname%3D%22Blackheath%20Avenue%22%5D%3B%0A%20%20node%28w%29%3B%0A%20%20relation%2851%2E477%2C%2D0%2E001%2C51%2E478%2C0%2E001%29%3B%20%29%3B%0Aout%20skel%20geom%3B)
 
     ( way(51.477,-0.001,51.478,0.001)[name="Blackheath Avenue"];
       node(w);
@@ -176,7 +176,7 @@ CSV itself originally stood for _comma separated value_. However, the numerous p
 
 The [respective applications](index.md) indicate which variant is suitable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjMwODY0MCwtMTIwMDM4NDgxOSwtMj
+eyJoaXN0b3J5IjpbLTMyMTI4MDk0MCwtMTIwMDM4NDgxOSwtMj
 AxMTgxNDU5MSwxMDMzNTI3Mjc4LDEzNjY3MzE3NDcsLTU3MDI4
 Njc0OSwxMzAwMjE1MjM5LC02NTI2ODIwNzIsMTc4MjkyNDY0Ny
 wxNzg2MTUwMjc3LDcxODc3NDM3OF19
