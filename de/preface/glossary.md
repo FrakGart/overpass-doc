@@ -10,6 +10,14 @@ der vom Client (z.B. aus _Overpass Turbo_ heraus) an den Server gesendet wird.
 Der Inhalt der Abfrage entscheidet alleine darüber,
 was aus den OpenStreetMap abgerufen wird.
 
+### Area
+
+Ein spezieller Typ _Objekt_ in den Daten der Overpass API.
+Im Gegensatz zu _Nodes_, _Ways_ und _Relations_ kommen Deriveds nicht direkt aus den OpenStreetMap-Daten,
+sondern werden von der Overpass API erzeugt.
+Es handelt sich um einen Workaround, da Flächen (_Areas_) in OpenStreetMap zwar als Konzept benutzt werden,
+es aber keinen speziellen Datentypen dafür gibt.
+
 ### Bounding-Box
 
 Eine Bounding-Box wird durch zwei Längengradangaben und zwei Breitengradangaben beschrieben.
@@ -92,3 +100,5 @@ Ein spezifischer Typ von Objekt im Datenmodell von OpenStreetMap.
 Repräsentiert einen Linienzug.
 Falls es sich um einen geschlossenen Linienzug handelt,
 kann dies auch eine Fläche sein.
+
+<!-- TODO: id, Member, Rolle -->

@@ -70,7 +70,7 @@ The idiom `(._; node(w););` accomplishes this by its three statements `._`, `nod
     (._; node(w););
     out;
 
-Nodes and ways each with all their details together are explained in the final section.
+Nodes and ways each with all their details together are explained [in the final section](#full).
 
 <a name="rels"/>
 ## Relations
@@ -151,7 +151,7 @@ just scroll down to the end.
 Hence, most members of the relations are not loaded at all;
 only the members within the bounding box are loaded.
 This request is not ready for production use because we do not load all used nodes for the ways.
-A completed request can be found below in the section _Grand Total_.
+A completed request can be found below in the section [Grand Total](#full).
 
 <a name="rels_on_rels"/>
 ## Relations on Top of Relations

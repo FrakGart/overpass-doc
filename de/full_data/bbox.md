@@ -6,6 +6,8 @@ Der einfachste Weg, um an OpenStreetMap-Daten in einem Ausschnitt zu kommen.
 <a name="filter"/>
 ## Suchkriterium
 
+<!-- TODO: out center -->
+
 Der einfachste Weg, an alle Daten in einer Bounding-Box zu kommen, ist,
 dies explizit so zu formulieren [(Link)](https://overpass-turbo.eu/?lat=51.4775&lon=0.0&zoom=16&Q=CGI_STUB):
 
@@ -27,7 +29,7 @@ Der Wert für den südlichen Rand muss stets kleiner sein als der Wert für den 
 da im Breitengrad-Längengrad-Koordinatensystem die Grade vom Südpol zum Nordpol wachsen, von -90.0 bis +90.0.
 
 Im Gegensatz dazu steigen die Längengrade zwar von Westen nach Osten ebenfalls fast überall an.
-Es gibt aber den sogenannten Anitmeridian, im Deutschen oft mit der "Datumsgrenze" verwechselt;
+Es gibt aber den sogenannten Antimeridian, im Deutschen oft mit der "Datumsgrenze" verwechselt;
 dort springt der Wert von +180.0 auf -180.0.
 Er verläuft zwischen Nordpol und Südpol durch den Pazifik.
 In nahezu allen Fällen ist also ebenfalls der westliche Wert kleiner als der östliche Wert,
